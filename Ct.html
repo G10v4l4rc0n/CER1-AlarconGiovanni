@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap-5.3.1-dist/bootstrap-5.3.1-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="Ctstyle.css">
+    <title>Imagina</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <a class="navbar-brand" href="#">Inicio</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+<!-- Imagen y descrprición -->
+
+        <div class="row">
+            <div id="imagenes" class="col-xl-9">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/Carrusel1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Carrusel2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Carrusel3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div id="description" class="col-xl-3">
+                <h1>Imagina</h1>
+                <h3>Magia y Teatro</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing el Lorem ipsum, dolor sit amet consectetur adipisicing elit. Est, dolore.
+                <button id="btndes" type="button" class="btn btn-primary">Contáctanos</button>
+        </div>
+
+<!-- Carta de Personas -->
+
+        <div id="content" class="row">
+            <div class="col-md-6 col-xl-4">
+                <div class="card" style="height: 100%">
+                    <img src="img/Cristina.png" class="card-img-top" alt="..." height="100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <div class="card" style="height: 100%">
+                    <img src="img/Cesar.png" class="card-img-top" alt="..." height="100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <div class="card" style="height: 100%">
+                    <img src="img/Isabel.png" class="card-img-top" alt="..." height="100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <div class="card" style="height: 100%">
+                    <img src="img/Monica.png" class="card-img-top" alt="..." height="100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                    
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <div class="card" style="height: 100%">
+                    <img src="img/Sergio.png" class="card-img-top" alt="..." height="100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-xl-4">
+                <div class="card" style="height: 100%">
+                    <img src="img/Bruno.png" class="card-img-top" alt="..." height="100%">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>                    
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- Footer -->
+
+        <footer class="footer">
+            <div id="foot1" class="d-flex justify-content-center">
+                <button type="button" class="btn btnsc"><img class="foot1" src="icon/Fb.png" height="50px" width="50px"></button>
+                <button type="button" class="btn btnsc"><img class="foot1" src="icon/Ig.png" height="50px" width="50px"></button>
+                <button type="button" class="btn btnsc"><img class="foot1" src="icon/Yt.png" height="50px" width="50px"></button>
+            </div>
+            <div id="saltoMargen"></div>
+            <div id="foot2" class="d-flex justify-content-center">
+                <img src="" alt="">
+                <br>Desarrollado por G10v4l4rc0n
+                <a class="foot1" href="https://github.com/G10v4l4rc0n/CER1-AlarconGiovanni">Repositorio Git</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

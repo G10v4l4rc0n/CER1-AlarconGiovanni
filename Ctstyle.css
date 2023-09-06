@@ -1,0 +1,40 @@
+*{
+    background-color: #FFFFFF;
+}
+
+
+#description {
+    margin-top: 20px;
+}
+
+#content {
+    margin: 50px;
+}
+
+#foot1, #foot2, .foot1, .btnsc{
+    background-color: #F25252;
+}
+.foot1 {
+    text-align: center;
+    margin: 10px;
+}
+#saltoMargen {
+    background-color: #FAE2E2;
+    height: 25px;
+}
+#foot2{
+    height: 100px;
+}
+
+#btndes {
+    margin: 20px 10px;
+    background-color: #6c757d;
+}
+
+.foot1:hover {
+    background-color: #f6c270;
+}
+
+#btndes:hover {
+    background-color: #f6c270;
+}
